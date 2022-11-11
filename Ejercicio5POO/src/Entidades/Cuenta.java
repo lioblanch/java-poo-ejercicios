@@ -79,7 +79,7 @@ public class Cuenta {
             System.out.println("Retiro no realizado");
             System.out.println("EL retiro supera el 20% del saldo");
         }else {
-            saldoActual += retiro;
+            saldoActual -= retiro;
         }
         return saldoActual;
     }

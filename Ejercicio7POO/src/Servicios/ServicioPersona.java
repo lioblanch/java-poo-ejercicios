@@ -28,7 +28,7 @@ public class ServicioPersona {
     }
 
     /**
-     * Este metodo calcula el Indice de masa Corporal 
+     * Este metodo calcula el Indice de masa Corporal
      * @param cp1
      */
     public void calculandoIMC(ClasePersona cp1){
