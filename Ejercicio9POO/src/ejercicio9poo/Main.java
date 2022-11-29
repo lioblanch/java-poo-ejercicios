@@ -31,6 +31,7 @@ public class Main {
         cm.setNumero1(Math.random()*11+1);
         cm.setNumero2(Math.random()*11+1);
 
+
         sm.devolverMayor(cm);
         sm.calcularPotencia(cm);
         sm.calcularRaiz(cm);

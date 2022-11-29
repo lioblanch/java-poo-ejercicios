@@ -20,7 +20,7 @@ public class ClaseArreglo {
     public void llenarArreglos(){
 
 
-        DecimalFormat df = new DecimalFormat("###.##");
+        DecimalFormat df = new DecimalFormat("###.####");
         for (int i = 0; i<arreglo1.length; i++){
 
             arreglo1[i]= (Math.random()*(50-5)) + 5;

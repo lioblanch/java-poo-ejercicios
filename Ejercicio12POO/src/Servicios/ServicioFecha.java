@@ -22,7 +22,7 @@ public class ServicioFecha {
         System.out.println("Ingrese el año de cumpleaños YYYY");
         int anio = reader.nextInt();
 
-        Date calendario1 = new Date(anio -100, mes, dia);
+        Date calendario1 = new Date(anio -1900, mes, dia);
         Calendar dt = new GregorianCalendar(anio, mes, dia);
 
 
